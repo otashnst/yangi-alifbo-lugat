@@ -1,0 +1,19 @@
+{
+  "version": "2026.11.18",
+  "min_app": "1.6.0",
+  "notes": "Birinchi versiya",
+  "files": {
+    "uz_UZ-2026.aff": {
+      "sha256": "c0a88d5261dc4700a9dff9731375dfef8e5aeb66b9372efcafafc035c6419ec3",
+      "size": 527396
+    },
+    "uz_UZ-2026.dic": {
+      "sha256": "a4262ccd948fe9f897b22085e8e2209771c8f2a5c24b5e6912547db048583265",
+      "size": 1631280
+    },
+    "freq.txt": {
+      "sha256": "dac9569aa4046ed4a59479ef2d29495830e4f2cb50f1174a8375c3a72323be42",
+      "size": 2593331
+    }
+  }
+}
