@@ -16,14 +16,15 @@ versiya raqami kattaroq bo‘lsa, lug‘at fayllarini yuklab oladi va keyin inte
 1. `uz_UZ-2026.dic` ga yangi so‘z qo‘shing — har qatorda bitta so‘z.
    Qo‘shimchalar bilan ishlashi uchun ot so‘zlarga `/ABVIJKLMQS` belgisini qo‘shing, masalan `avariyaviy/ABVIJKLMQS`.
    Birinchi qatordagi son — so‘zlar soni; uni ham bittaga oshiring.
-2. Manifestni qayta yarating (Python kerak):
+2. Manifestni maxfiy kalit bilan imzolab qayta yarating (`relizchi.exe` — dastur repozitoriysidagi `src/tools/relizchi`):
    ```
-   python make_dict_release.py . . 2026.12.01 "Qo‘shilgan so‘zlar haqida qisqa izoh"
+   relizchi.exe dict release_private_key.txt . 2026.12.01 "Qo‘shilgan so‘zlar haqida qisqa izoh"
    ```
    Versiya har safar avvalgisidan katta bo‘lishi shart (yil.oy.kun).
+   1.8 va undan keyingi dastur imzosiz yoki boshqa kalit bilan imzolangan lug‘atni qabul qilmaydi.
 3. O‘zgargan fayllarni GitHub’ga yuklang (commit). Bir necha daqiqadan keyin barcha kompyuterlardagi dastur yangi lug‘atni oladi.
 
-`manifest.json` dagi summa fayllarga mos kelmasa, dastur yangilanishni rad etadi va eski lug‘at bilan ishlayveradi — shuning uchun 2-qadamni o‘tkazib yubormang.
+`manifest.json` dagi imzo yoki summa mos kelmasa, dastur yangilanishni rad etadi va eski lug‘at bilan ishlayveradi — shuning uchun 2-qadamni o‘tkazib yubormang.
 
 ## Litsenziya
 
